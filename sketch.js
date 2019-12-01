@@ -36,7 +36,7 @@ var healthDecrease = 1;
 var healthBarWidth = 60;
 
 function setup() {
-  createCanvas(500, 500);
+  var canvas = createCanvas(500, 500);
   canvas.parent('sketch-holder');
   
   ballX = width / 4;
