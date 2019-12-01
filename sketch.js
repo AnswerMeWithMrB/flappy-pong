@@ -37,6 +37,7 @@ var healthBarWidth = 60;
 
 function setup() {
   createCanvas(500, 500);
+  canvas.parent('sketch-holder');
   
   ballX = width / 4;
   ballY = height / 5;
