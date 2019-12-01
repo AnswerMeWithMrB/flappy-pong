@@ -69,7 +69,7 @@ function initScreen() {
 }
 
 function gamePlayScreen() {
-  background(255);
+  background(236, 240, 241);
   drawBall();
   drawRacket();
   drawHealthBar();
